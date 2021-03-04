@@ -1,0 +1,95 @@
+.home{
+    .wrap-img{
+        position: relative;
+        /deep/ .van-swipe-item{
+            padding: 10px;
+            .img-box{
+                border-radius: 5px;
+                overflow: hidden;
+                position: relative;
+                img{
+                    height: 6rem;
+                    width: 100%;
+                    display: block;
+                }
+                .tag{
+                    position: absolute;
+                    background: #c99065;
+                    color: #fff;
+                    font-size: 12px;
+                    border-radius: 3px;
+                    padding: 3px 5px;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+        }
+        .dot{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 20px;
+            display: flex;
+            li{
+                height: 2px;
+                width: 5px;
+                border-radius: 2px;
+                background: #fff;
+                margin-right: 5px;
+                transition: width 0.5s;
+                &.active{
+                    background: #c99065;
+                    width: 10px;
+                }
+            }
+        }
+    } 
+    .my-notice{
+        padding: 10px 5px;
+        /deep/ .van-notice-bar{
+            background: #fff;
+        }
+    } 
+//     .cachet{
+//         padding:  0 20px;
+//         img{
+//             width: 100%;
+//             height: 80px;
+//            border-radius: 80px;
+//         }
+//     }
+.choiceness{
+    .content{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        .item{
+            height: 120px;
+            width: 170px;
+            border-radius: 5px;
+            margin-right: 10px;
+            background-size: 100% 100% !important;
+            .text{
+                padding: 20px 15px 0;
+                color: #fff;
+                text-shadow: 1px 1px 3px #000;
+                .title{
+                    font-size: 14px;
+                    display: block;
+                    margin-bottom: 5px;
+                }
+                .des{
+                    display: block;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+.seckill{
+    margin-bottom: 10px;
+}
+.my-grid{
+    padding: 0 10px;
+}
+}

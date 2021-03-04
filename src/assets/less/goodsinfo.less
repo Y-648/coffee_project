@@ -1,0 +1,167 @@
+.goods-info {
+    padding-bottom: 50px;
+    .img-wrap{
+        height: 350px;
+        position: relative;
+        .seckill-box{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            background: #6d411e;
+            color: #fff;
+            padding: 10px;
+            .left{
+                display: flex;
+                align-items: center;
+                .new-price{
+                    .mark{
+                        font-size: 12px;
+                    }
+                    .text{
+                        font-size: 28px;
+                    }
+                }
+                .old-price{
+                    margin-left: 10px;
+                    .text{
+                        font-size: 12px;
+                        text-decoration: line-through;
+                        color: #cccccc;
+                    }
+                    .icon{
+                        margin-top: 2px;
+                        padding: 2px;
+                        display: block;
+                        background: #c99065;
+                        font-size: 8px;
+                    }
+                }
+            }
+            .rigth{
+                .info{
+                    font-size: 12px;
+                    color: #cccccc;
+                }
+                .time{
+                    /deep/.van-count-down{
+                        color: #fff;
+                        font-size: 12px;
+                        .block{       
+                            padding: 3px 5px;
+                            background: #c99065;
+                        }
+                    }
+                   
+                }
+            }
+        }
+    }
+    .title-box{
+        border-radius: 10px;
+        background: #fff;
+        padding: 15px;
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .name{
+            .cname{
+                font-weight: bold;
+                color: #000;
+                margin-bottom: 2px;
+                display: block;
+                font-size: 18px;
+            }
+            .ename{
+                color: #666666;
+                font-size: 12px;
+            }
+        }
+        .price{
+            display: flex;
+            align-items: center;
+            color: #6d411e;
+         .tag{
+            font: 14px;
+         }
+         .text{
+             font-size: 18px;
+         }
+        }
+    }
+    .content{
+            padding: 15px;
+            border-radius: 4px;
+            background: #fff;
+            border-radius: 10px;
+        .select-box{
+            border-bottom: 1px solid #cccccc;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .select-item{
+                display: flex;
+                margin-bottom: 20px;
+                line-height: 30px;
+                .title{
+                    line-height: 30px;
+                    font-size: 16px;
+                    color: #000;
+                    margin-right: 20px;
+                    width: 50px;
+                }
+                .options{
+                    display: flex;
+                    flex-wrap: wrap;
+                    span{
+                        color: #000;
+                        border-radius: 25px;
+                        padding:  0 20px;
+                        background: #cccccc;
+                        margin-right: 15px;
+                        &.active{
+                            background: #6d411e;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        .num-box{
+            padding-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 16px;
+            color: #000;
+            .van-stepper__minus{
+                border: 1px solid #6d411e;
+                color: #6d411e;
+            }
+            .van-stepper__plus{
+                background: #6d411e;
+            }
+        }
+    }
+    .des-box{
+        font-size: 14px;
+        padding: 10px;
+        background: #fff;
+        margin-top: 10px;
+        color: #000;
+        border-radius: 10px;
+        .title{
+            font-weight: bold;
+            line-height: 30px;
+        }
+        .des{
+            line-height: 20px;
+            font-size: 12px;
+            .des-item{
+                margin-bottom: 5px;
+            }
+        }
+    }
+ }

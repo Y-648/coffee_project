@@ -1,4 +1,4 @@
-# coffee_project
+# shop_vue
 
 ## Project setup
 ```

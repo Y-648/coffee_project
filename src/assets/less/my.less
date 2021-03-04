@@ -1,0 +1,54 @@
+.my{
+    .img-box{
+        height: 200px;
+        background-size: 100% 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .touxiang{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            img{
+                height: 70px;
+                width: 70px;
+                border-radius: 50%;
+                background:#fff;
+                display: block;
+            }
+            .name{
+                margin-top: 10px;
+                font-size: 14px;
+                color: #000;
+                text-align: center;
+               text-shadow: 1px 1px 1px rgb(214, 212, 212);
+            }
+        }
+    }
+    .order{
+        width: 90%;
+        margin: 0 auto;
+        border-radius:5px;
+        overflow: hidden;
+        background: #fff;
+       margin-top: -30px;
+        .my-grid{
+            /deep/.van-grid-item__content{
+                padding-top: 5px;
+            }
+        }
+    }
+   .my-cell{
+    /deep/.van-cell__left-icon{
+        color: #e84c5a;
+        font-size: 24px;
+    }
+   }
+   .user-option{
+    margin-top: 10px;
+   }
+   .btn{
+       width: 90%;
+       margin: 20px auto 0;
+   }
+}

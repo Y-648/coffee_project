@@ -1,0 +1,145 @@
+.cart{
+    padding-bottom: 40px;
+    /deep/.van-nav-bar__left{
+        .van-icon{
+            color: #000;
+        }
+        .van-nav-bar__text{
+            color: #000;
+        }
+    }
+    /deep/.van-nav-bar__right{
+        .van-nav-bar__text{
+            color: #000;
+        }
+    }
+    .address_bar_wrap{
+        border-radius: 0 0 15px 15px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .address_bar{
+            flex: 1;
+            padding: 15px 0 15px 20px;
+            display: flex;
+            align-items: center;
+            .address{
+                flex: 1;
+                font-size: 14px;
+                color: #666666;
+                border-right: 1px solid #cccccc;
+            }
+        }
+        .btn{
+            padding: 0 20px;
+            font-size: 12px;
+            color: #666666;
+        }
+    }
+    .cart-content{
+        border-radius: 15px;
+        background: #fff;
+        padding: 15px 0;
+        margin-top: 10px;
+        .cart-item{
+            .box{
+                display: flex;
+                align-items: center;
+                .checkbox{
+                    padding-left: 15px;
+                }
+                /deep/.van-card{
+                    background: #fff;
+                    flex: 1;
+                    .title-box{
+                        display: flex;
+                        align-items: flex-start;
+                        .name{
+                            margin-right: 10px;
+                            .cname{
+                                font-size: 16px;
+                                color: #000;
+                                display: block;
+                                margin-bottom: 5px;
+                            }
+                            .ename{
+                                font-size: 12px;
+                                color: #666;
+                            }
+                        }
+                        .des{
+                            font-size: 14px;
+                            color: #666;
+                        }
+                    }
+                }
+            }
+            /deep/.van-stepper__plus{
+                background: #6d411e;
+            }
+            /deep/.van-stepper__minus {
+                border: 1px solid #6d411e;
+                color: #6d411e;
+            }
+           /deep/ .van-card__price{
+                color: #6d411e;
+            }
+            /deep/.van-card__header{
+                padding-bottom: 10px;
+                border-bottom: 1px solid #ebe8e8;
+            }
+            .operate{
+                height: 100%;
+                box-sizing: border-box;
+                padding: 15px 20px 10px 10px;
+                .btn {
+                    height: 100%;
+                }
+               /deep/ .van-button--mini+.van-button--mini{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    .my-submit{
+        bottom: 50px;
+        /deep/.van-submit-bar__price{
+            color: #6d411e;
+        }
+        /deep/ .van-submit-bar__button{
+            margin-left: auto;
+          }
+    }
+    .bottom-button{
+        line-height: 30px;
+        padding: 0 20px;
+        border-radius: 30px;
+        background: #6d411e;
+        color: #fff;
+        font-size: 12px;
+    }
+    .my-popup{
+        padding-bottom: 50px;
+        p{
+           margin-top: 10px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 18px;
+            color: #000;
+        }
+        .my-address{
+            /deep/.van-radio__icon--checked .van-icon{
+                background-color: #6d411e;
+                border-color:#6d411e;
+            }
+            /deep/.van-tag--danger{
+                background-color: #6d411e;
+            }
+            /deep/.van-button--danger{
+                background-color: #6d411e;
+                border-color: #6d411e;
+            }
+        }
+    }
+}
